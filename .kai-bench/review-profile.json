@@ -1,0 +1,27 @@
+{
+  "run_tag": "run12-sonnet55",
+  "created_at": "2026-09-29T22:45:41Z",
+  "created_by": "acetz",
+  "stages": {
+    "quick_draft": {
+      "model": "anthropic/claude-haiku-4-5",
+      "effort": "low"
+    },
+    "quick_factcheck": {
+      "model": "claude-sonnet-5-5",
+      "effort": "off"
+    },
+    "main": {
+      "model": "claude-sonnet-5-5",
+      "effort": "off"
+    },
+    "sweep": {
+      "model": "claude-sonnet-5-5",
+      "effort": "off"
+    },
+    "factcheck": {
+      "model": "claude-sonnet-5-5",
+      "effort": "off"
+    }
+  }
+}
